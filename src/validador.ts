@@ -81,7 +81,7 @@ export class ValidadorNumeroProcesso {
    * @param {(number|string)} numeroProcesso - Número do processo
    * @return {boolean} Retorna um boleano indicando se o digito verificador está correto ou não.
    */
-  static validarDigitoVerificador(numeroProcesso) {
+  static validar (numeroProcesso) {
     const numeroProcessoCalculado = this.calcular(numeroProcesso);
     return +numeroProcessoCalculado % 97 === 1;
   }

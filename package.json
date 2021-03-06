@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/basarat/ts-npm-module-consume.git"
+    "url": "git+https://github.com/nathanfeitoza/validador-numero-processo.git"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
