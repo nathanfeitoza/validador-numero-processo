@@ -1,6 +1,6 @@
 {
   "name": "validador-numero-processo",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Validador simples de numero de processos judiciais brasileiros",
   "main": "dist/validador-numero-processo.js",
   "types": "dist/validador-numero-processo.d.ts",

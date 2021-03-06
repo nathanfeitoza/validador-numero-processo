@@ -13,11 +13,19 @@ Este projeto visa facilitar a vida de desenvolvedores que precisem validar núme
 ### Example
 
 ```javascript
+// Using ES6 import 
+
 import { ValidadorNumeroProcesso } from 'validador-numero-processo';
 
-const validadorObj = new ValidadorNumeroProcesso();
+console.log( ValidadorNumeroProcesso.validar(<numero_do_processo>) );
+```
 
-console.log( validadorObj.validar(<numero_do_processo>) );
+```javascript
+// Using require 
+
+const { ValidadorNumeroProcesso } = require('validador-numero-processo');
+
+console.log( ValidadorNumeroProcesso.validar(<numero_do_processo>) );
 ```
 
 ## License
