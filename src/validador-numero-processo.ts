@@ -5,7 +5,7 @@
  * @inspired: https://github.com/edipojuan/numero-unico-processo
  */
 
-export default class ValidadorNumeroProcesso {
+export class ValidadorNumeroProcesso {
   /**
    * Formata o Número
    * @param {(number|string)} numero - Número da numeração única do processo (NNNNNNN)

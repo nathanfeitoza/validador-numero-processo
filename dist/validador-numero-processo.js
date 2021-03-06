@@ -6,6 +6,7 @@
  * @inspired: https://github.com/edipojuan/numero-unico-processo
  */
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.ValidadorNumeroProcesso = void 0;
 class ValidadorNumeroProcesso {
     /**
       * Calcula o Módulo 97 Base 10 (Norma ISO 7064)
@@ -41,7 +42,7 @@ class ValidadorNumeroProcesso {
         return +numeroProcessoCalculado % 97 === 1;
     }
 }
-exports.default = ValidadorNumeroProcesso;
+exports.ValidadorNumeroProcesso = ValidadorNumeroProcesso;
 /**
  * Formata o Número
  * @param {(number|string)} numero - Número da numeração única do processo (NNNNNNN)

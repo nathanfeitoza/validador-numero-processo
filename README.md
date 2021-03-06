@@ -13,7 +13,7 @@ Este projeto visa facilitar a vida de desenvolvedores que precisem validar núme
 ### Example
 
 ```javascript
-import ValidadorNumeroProcesso from 'validador-numero-processo';
+import { ValidadorNumeroProcesso } from 'validador-numero-processo';
 
 const validadorObj = new ValidadorNumeroProcesso();
 

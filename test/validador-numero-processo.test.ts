@@ -1,4 +1,4 @@
-import ValidadorNumeroProcesso from '../src/validador-numero-processo';
+import { ValidadorNumeroProcesso } from '../src/validador-numero-processo';
 
 test('Testing proccess validator', () => {
     expect(ValidadorNumeroProcesso.validar('0000675-88.2016.5.20.0011')).toBe(true);
